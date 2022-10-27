@@ -11,11 +11,12 @@ const App = () => {
   const showCartHandler = () => {
     setCartIsShown(true);
   };
-
   const hideCartHandler = () => {
     setCartIsShown(false);
   };
+
   return (
+
     <CartProvider>
       {/* <Demo/> */}
       {cartIsShown && <Cart onClose={hideCartHandler} />}
@@ -24,6 +25,7 @@ const App = () => {
         <Meals />
       </main>
     </CartProvider>
+    
   );
 };
 
