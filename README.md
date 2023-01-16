@@ -1,4 +1,4 @@
-<img src="./public/foodyfi.png" alt="logo"/> 
+<img src="./public/foodyfi.png" alt="logo" height="80px" width="80px"/> 
 
 # Foody-fi
 
